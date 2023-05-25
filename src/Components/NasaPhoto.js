@@ -8,7 +8,7 @@ const dummyData = {
     }
 
 const NasaPhoto = (props) => {
-    return {
+    return (
         <div className="nasa-photo-wrapper">
             <h3>{props.photo.title}</h3>
             <p>{props.photo.date}</p>
@@ -16,7 +16,7 @@ const NasaPhoto = (props) => {
             <p>{props.photo.explanation}</p>
         </div>
     
-    }
+    );
 }
 
 export default NasaPhoto;
